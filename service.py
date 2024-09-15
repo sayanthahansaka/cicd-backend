@@ -10,7 +10,7 @@ def exchange_crypto():
 
 @app.route('/test_api', methods=['GET'])
 def test_api():
-    data = {"test": "yoo yoo api"}
+    data = {"test": "yoo  api"}
     return jsonify(data)
     
 
